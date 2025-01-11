@@ -6,6 +6,8 @@
 	font-family: 'Fira Sans', serif;
 }
 
+
+/* constant styles */
 body {
 	background: #f1f1f3;
 }
@@ -17,6 +19,32 @@ main {
 
 section {
 	margin-block: 3rem;
+}
+
+button:hover {
+	opacity: 0.7;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+
+.bg-blue {
+	background-color: rgba(180, 220, 236, 0.87);
+}
+.bg-green {
+	background-color: rgba(174, 216, 174, 0.712);
+}
+.bg-orange {
+	background-color: rgb(230, 213, 182);
+}
+.btn-blue {
+	background-color: #5490f5;
+}
+
+.btn-green {
+	background-color: #09a15c;
+}
+.btn-orange {
+	background-color: #f0ae16;
 }
 
 /* navbar */
@@ -110,6 +138,11 @@ section {
 	width: 100%;
 	gap: 1rem;
 }
+
+.pillers-card:hover {
+	background-color: #b1d8c5;
+	transition: background-color 0.5s;
+}
 .pillers-card-title {
 	font-weight: bold;
 	color: rgba(0, 0, 0, 0.719);
@@ -139,25 +172,6 @@ section {
 	gap: 1rem;
 }
 
-.bg-blue {
-	background-color: rgba(180, 220, 236, 0.87);
-}
-.bg-green {
-	background-color: rgba(174, 216, 174, 0.712);
-}
-.bg-orange {
-	background-color: rgb(230, 213, 182);
-}
-.btn-blue {
-	background-color: #5490f5;
-}
-
-.btn-green {
-	background-color: #09a15c;
-}
-.btn-orange {
-	background-color: #f0ae16;
-}
 
 .visions-card {
 	border: none;
@@ -434,4 +448,27 @@ section {
 .newsletter-request {
 	font-size: small;
 	color: rgb(68, 67, 67);
+}
+
+/* social section */
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.social > h1 {
+	padding: 3rem;
+}
+
+.social > .icons {
+	display: flex;
+	justify-content: space-around;
+	gap: 0.5rem;
+}
+
+.social > .icons > img {
+	width: 25%;
+	object-fit: contain;
 }
