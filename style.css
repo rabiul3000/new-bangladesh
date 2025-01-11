@@ -186,3 +186,30 @@ section {
 	border: none;
 	border-radius: 5px;
 }
+
+/* quote section */
+
+.quote {
+	padding: 1rem;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+}
+
+.quote-brief{
+	margin-bottom: 10px;
+	color: rgb(78, 78, 78);
+}
+.quote-person-name {
+	color: rgb(73, 72, 72)
+}
+
+.quote-person-post{
+	font-size: x-small;
+	color: grey;
+	margin-top: 4px;
+	font-weight: normal;
+}
