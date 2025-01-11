@@ -391,3 +391,47 @@ section {
 	background-color: #006a50;
 	color: white;
 }
+
+/* newsletter section */
+
+.newsletter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	padding: 4rem 1rem;
+	border-radius: 10px;
+}
+.newsletter-description {
+	font-size: small;
+	color: rgb(61, 60, 60);
+	width: 52%;
+	text-align: center;
+}
+
+.newsletter-form {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.newsletter-form > input {
+	padding: 0.8rem 1rem;
+	width: 50%;
+	border: none;
+	border-radius: 5px;
+	font-size: small;
+}
+.newsletter-form > button {
+	padding-inline: 1rem;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #006a50;
+	color: white;
+	border: none;
+}
+.newsletter-request {
+	font-size: small;
+	color: rgb(68, 67, 67);
+}
