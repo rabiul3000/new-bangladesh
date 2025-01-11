@@ -5,6 +5,9 @@
 	box-sizing: border-box;
 	font-family: 'Fira Sans', serif;
 }
+body {
+	background: #f1f1f3;
+}
 
 main {
 	width: 960px;
@@ -12,7 +15,7 @@ main {
 }
 
 section {
-    margin-block: 3rem;
+	margin-block: 3rem;
 }
 .navbar {
 	display: flex;
@@ -82,4 +85,33 @@ section {
 	color: white;
 	border-radius: 5px;
 	border: none;
+}
+
+/* pillars section */
+
+.cards {
+	display: flex;
+    margin-block: 1rem;
+	gap: 1rem;
+}
+
+.card {
+	background: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    
+}
+.card-title{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.card-description{
+    font-size: small;
+    color: grey;
 }
