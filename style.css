@@ -338,3 +338,56 @@ section {
 	color: white;
 	background-color: #006a50;
 }
+
+/* donation section */
+
+.donation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+.donation-description {
+	font-size: small;
+	text-align: center;
+	color: rgb(58, 56, 56);
+}
+
+.donation-buttons-container {
+	display: flex;
+	gap: 1rem;
+}
+
+.donation-buttons-container > button {
+	padding: 1.5rem 3rem;
+	border-radius: 10px;
+	background: white;
+	border: none;
+	color: black;
+	font-weight: bolder;
+	font-size: x-large;
+	border: 1px solid lightgray;
+}
+
+.donation-buttons-container > button:hover {
+	background-color: #b1d8c5;
+	transition: background-color 0.5s;
+}
+
+.donation-input {
+	width: 85%;
+	padding: 0.8rem;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-weight: bold;
+}
+
+.donation-submit-btn {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #006a50;
+	color: white;
+}
