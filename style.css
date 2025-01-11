@@ -200,20 +200,19 @@ section {
 	background: url('./assets/quote-bg.png');
 	background-repeat: no-repeat;
 	background-size: 38px;
-	background-position: top 10px  left 20px;
-
-
+	background-position: top 10px left 20px;
+	background-color: white;
 }
 
-.quote-brief{
+.quote-brief {
 	margin-bottom: 10px;
 	color: rgb(78, 78, 78);
 }
 .quote-person-name {
-	color: rgb(73, 72, 72)
+	color: rgb(73, 72, 72);
 }
 
-.quote-person-post{
+.quote-person-post {
 	font-size: x-small;
 	color: grey;
 	margin-top: 4px;
@@ -221,4 +220,48 @@ section {
 }
 
 /* opinion section */
+.opinions-title {
+	margin-bottom: 1rem;
+}
+.opinions-heading {
+	display: flex;
+	border: 1px solid lightgrey;
+	justify-content: space-between;
+	padding: 1rem;
+	font-weight: bold;
+}
 
+.qa-container {
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.qa {
+	display: flex;
+	border-bottom: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+	background-color: white;
+}
+
+.question {
+	width: 85%;
+	border-right: 1px solid lightgrey;
+	padding: 1rem;
+	font-weight: bold;
+	font-size: small;
+}
+
+.answer {
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.answer > button {
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid black;
+}
