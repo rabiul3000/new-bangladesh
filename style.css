@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	font-family: 'Fira Sans', serif;
 }
+
 body {
 	background: #f1f1f3;
 }
@@ -17,6 +18,8 @@ main {
 section {
 	margin-block: 3rem;
 }
+
+/* navbar */
 .navbar {
 	display: flex;
 	width: 100%;
@@ -32,6 +35,8 @@ section {
 	font-weight: bold;
 	background-color: transparent;
 }
+
+/* hero section */
 
 .hero {
 	width: 100%;
@@ -89,29 +94,95 @@ section {
 
 /* pillars section */
 
-.cards {
+.pillers-cards {
 	display: flex;
-    margin-block: 1rem;
+	margin-block: 1rem;
 	gap: 1rem;
 }
 
-.card {
+.pillers-card {
 	background: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    padding: 0.8rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-    
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	padding: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
 }
-.card-title{
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.719);
+.pillers-card-title {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.719);
 }
 
-.card-description{
-    font-size: small;
-    color: grey;
+.pillers-card-description {
+	font-size: small;
+	color: grey;
+}
+
+/* vision of future section */
+
+.visions {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.visions-description {
+	font-size: small;
+	color: grey;
+}
+
+.visions-cards {
+	display: flex;
+	margin-block: 1rem;
+	gap: 1rem;
+}
+
+.bg-blue {
+	background-color: rgba(180, 220, 236, 0.87);
+}
+.bg-green {
+	background-color: rgba(174, 216, 174, 0.712);
+}
+.bg-orange {
+	background-color: rgb(230, 213, 182);
+}
+.btn-blue {
+	background-color: #5490f5;
+}
+
+.btn-green {
+	background-color: #09a15c;
+}
+.btn-orange {
+	background-color: #f0ae16;
+}
+
+.visions-card {
+	border: none;
+	border-radius: 10px;
+	padding: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+	justify-content: space-between;
+}
+.visions-card-title {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.719);
+}
+
+.visions-card-description {
+	font-size: small;
+	color: grey;
+}
+
+.vision-card-btn {
+	width: fit-content;
+	padding: 0.5rem 1rem;
+	color: white;
+	border: none;
+	border-radius: 5px;
 }
